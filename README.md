@@ -27,7 +27,7 @@ Then extracted the contents of the zip file corresponding to the Eclipse ADT Bun
 
 Then, it is required to download the Android SDK version 14 by using the `SDK Manager.exe` application. Execute the manager, select all the coresponding packages to the `Android 4.0 (API 14)` and click on `Install # packages`.
 
-![]("./doc/images/AndroidSDK_Install.png")
+![]("https://raw.githubusercontent.com/salmedina/AndroidCL/master/doc/images/AndroidSDK_Install.png")
 
 Once the required SDK version has been installed close the Manager.
 
@@ -50,7 +50,7 @@ If you have never setup an environment variable in Windows, this is easily done 
 3. Click on the `Environment Variables` buttons.
 4. Under the `System variables` click on the `New...` button.
 
-![]("./doc/images/NewEnvVarWin.png")
+![]("https://raw.githubusercontent.com/salmedina/AndroidCL/master/doc/images/NewEnvVarWin.png")
 
 If you have followed the guide step by step up to this point, set the *environment variable* with the following values:
 
@@ -83,7 +83,7 @@ Name
 Location
 :   https://dl.google.com/android/eclipse/
 
-![]("./doc/images/ADT_Repository.png")
+![]("https://raw.githubusercontent.com/salmedina/AndroidCL/master/doc/images/ADT_Repository.png")
 
 Select under `Development Tools` the `Android Native Development Tools` click on the `Next` button, accept the agreement and install the plug-in.
 
@@ -103,7 +103,7 @@ To import the project, once again in the tool bar click on:
 
 Then click on the `Next` button. On the window that pops, click on the `Browse` button, select the directory where you downloaded this project, click on the checkbox and finally on the `Finish` button.
 
-![]("./doc/images/ImportProject.png")
+![]("https://raw.githubusercontent.com/salmedina/AndroidCL/master/doc/images/ImportProject.png")
 
 The project now will appear on the left hand side of the IDE as `androidcl`. `Right-click` on it and select:
 
@@ -137,7 +137,7 @@ In this section a brief description of the project will be given to let you have
 
 The main task of this application up to this point is to create a Laplacian filter on real time to the video feed incoming from the camera. In the figure below it is depicted how the application works, on how the classes interact.
 
-![]("./doc/images/Project_Overview.png")
+![]("https://raw.githubusercontent.com/salmedina/AndroidCL/master/doc/images/Project_Overview.png")
 
 First the application runs mainly in the LiveFeatureActivity. In this class all the GUI elements are loaded as well as the OpenCL `kernels` are compiled. 
 
